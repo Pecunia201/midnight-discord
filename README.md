@@ -2,6 +2,8 @@
 
 a darkened discord theme with rounded chat and sidebars.
 
+<img src="screenshot.png">
+
 ## install
 
 > [!IMPORTANT]  
