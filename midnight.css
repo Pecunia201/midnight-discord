@@ -3,45 +3,45 @@
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	--font: 'gg sans';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'PecuniaCord';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: #75bd5e; /* change to #23a55a for default green */
+	--dnd-indicator: #e4354f; /* change to #f13f43 for default red */
+	--idle-indicator: #ebb03b; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #c6a0f6; /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(234, 82%, 85%); /* links */
+	--accent-2: hsl(234, 82%, 85%); /* general unread/mention elements */
+	--accent-3: hsl(14, 82%, 70%); /* accent buttons */
+	--accent-4: hsl(234, 68%, 77%); /* accent buttons when hovered */
+	--accent-5: hsl(234, 52%, 69%); /* accent buttons when clicked */
+	--mention: hsla(234, 67%, 77%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(234, 67%, 77%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
-	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-0: var(--bg-4); /* text on colored elements */
+	--text-1: hsl(221, 44%, 95%); /* bright text on colored elements */
+	--text-2: hsl(227, 68%, 88%); /* headings and important text */
+	--text-3: hsl(227, 27%, 72%); /* normal text */
+	--text-4: hsl(228, 15%, 57%); /* icon buttons and channels */
+	--text-5: hsl(230, 14%, 41%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-1: hsl(231, 16%, 34%); /* dark buttons when clicked */
+	--bg-2: hsl(230, 19%, 26%); /* dark buttons */
+	--bg-3: hsl(229, 23%, 9%); /* spacing, secondary elements */
+	--bg-4: hsl(240, 16%, 17%); /* main background color */
+	--hover: hsla(229, 15%, 53%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(232, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
-	--spacing: 12px;
+	--spacing: 10px;
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
@@ -51,7 +51,7 @@
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
-	--roundness-xl: 22px; /* roundness of big panel outer corners */
+	--roundness-xl: 10px; /* roundness of big panel outer corners */
 	--roundness-l: 20px; /* popout panels */
 	--roundness-m: 16px; /* smaller panels, images, embeds */
 	--roundness-s: 12px; /* members, settings inputs */
@@ -67,9 +67,9 @@
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
-	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
-	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
-	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+	--login-bg-filter: none; /* login background artwork */
+	--green-to-accent-3-filter: none; /* add friend page explore icon */
+	--blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
 
 /* change fonts (edit the variables above, not this part) */
