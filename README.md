@@ -15,10 +15,6 @@ a darkened discord theme with rounded chat and sidebars. An orange flavor with s
 2. put the file into your theme folder. (there should be a button to open the theme folder in theme settings)
 3. (optional) customize the theme in `midnight.theme.css`.
 
-#### install through link
-
-add `https://refact0r.github.io/midnight-discord/midnight.css` to your theme import links.
-
 ## credits
 
 forked from <https://github.com/refact0r/midnight-discord/>
