@@ -1,6 +1,6 @@
-# midnight
+# midnight-orange
 
-a darkened discord theme with rounded chat and sidebars.
+a darkened discord theme with rounded chat and sidebars. An orange flavor with slightly warmer colors.
 
 <img src="screenshot.png">
 
